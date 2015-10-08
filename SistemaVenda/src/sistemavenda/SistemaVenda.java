@@ -5,6 +5,8 @@
  */
 package sistemavenda;
 
+import dados.Cliente;
+import java.util.ArrayList;
 import telas.TelaPrincipal;
 import repositorio.RepositorioDados;
 
@@ -14,6 +16,11 @@ import repositorio.RepositorioDados;
  */
 public class SistemaVenda {
     
+    private static ArrayList<Cliente> listaCliente = new ArrayList<>();
+    
+            
+            
+            
     public static void main(String[] args) {
         System.out.println("Testando main()");
         
@@ -22,5 +29,13 @@ public class SistemaVenda {
         TelaPrincipal tela = new TelaPrincipal();
         
     }
-    
+   
+    public static void cadastraCliente(Cliente c){
+        listaCliente.add(c);
+        
+        System.out.println("Salvo\n\n"+c);
+        
+        
+        
+    }
 }

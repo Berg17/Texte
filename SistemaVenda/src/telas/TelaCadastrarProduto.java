@@ -182,6 +182,7 @@ public class TelaCadastrarProduto extends javax.swing.JFrame {
 
             // metodo opcional para visualizar dados        
             produtoAtual.imprimirDados(); 
+            
 
             JOptionPane.showMessageDialog(this, produtoAtual);
 
