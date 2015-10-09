@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package telas;
+
 import dados.Funcionario;
 import javax.swing.JOptionPane;
 import repositorio.RepositorioFuncionario;
@@ -189,7 +190,8 @@ public class TelaFuncionario extends javax.swing.JFrame {
         String cidade = Ccidade.getText();
         String email = Cemail.getText();
         
-        if (this.funcionario != null) {
+        if (this.funcionario != null){
+            
             this.funcionario.setNome(nome);
             this.funcionario.setData(data);
             this.funcionario.setTelefone(telefone);
@@ -206,21 +208,13 @@ public class TelaFuncionario extends javax.swing.JFrame {
             
             funcionarioAtual.ImprimirFuncionario();
             
-            JOptionPane.showConfirmDialog(this, funcionarioAtual);
+            JOptionPane.showMessageDialog(this, funcionarioAtual);
             
             RepositorioFuncionario.adcionarFuncionario(funcionarioAtual);
             
             
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
+ 
        // Funcionario f = new Funcionario(nome, data, cpf, telefone, endereco, cidade, email);
         
         //JOptionPane.showMessageDialog(this, f);

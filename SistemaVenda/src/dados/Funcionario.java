@@ -31,8 +31,11 @@ public class Funcionario {
         contadorCodigo++;
     }
     
-    public Funcionario(String nome, String data, String cpf, String telefone, String endereco, String cidade, String email) {
-        this.codigo = contadorCodigo; 
+    public Funcionario(String nome, String data, 
+            String cpf, String telefone, String endereco, 
+            String cidade, String email) {
+        
+        codigo = contadorCodigo; 
        
         contadorCodigo++;
         

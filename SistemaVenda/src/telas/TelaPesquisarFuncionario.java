@@ -94,7 +94,7 @@ Funcionario funcionario = RepositorioFuncionario.pesquisarFuncionarioPeloCodigo(
        if (funcionario != null){
             int opcao = JOptionPane.showConfirmDialog(this,
                     funcionario, 
-                    "Editar o produto?" ,
+                    "Editar funcionario?" ,
                     JOptionPane.YES_NO_OPTION);
             
             

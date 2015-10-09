@@ -33,9 +33,9 @@ public class RepositorioDados {
     public static void inicializandoDados() {
         
         // criando os objetos diretamente
-        Produto p1 = new Produto("Produto 1" , "... ", 1000.0, 500.55);
-        Produto p2 = new Produto("Produto 2" , "... ", 3000.0, 1500.55);
-        Produto p3 = new Produto("Produto 3" , "... ", 800.0, 200.55);
+        Produto p1 = new Produto("PC" , "Computador ", 1000.0, 500.00);
+        Produto p2 = new Produto("PS4" , "Video Game ", 3000.0, 1500.00);
+        Produto p3 = new Produto("Mouse" , "Informatica ", 50.0, 20.00);
         
         /* povoar o array de dados estático
         

@@ -116,7 +116,8 @@ public class TelaPesquisarProduto extends javax.swing.JFrame {
             }
             
         } else {
-            JOptionPane.showMessageDialog(this, "Não encontrei o produto com esse código");
+            JOptionPane.showMessageDialog(this, 
+                    "Não encontrei o produto com esse código");
         }
         
     }//GEN-LAST:event_jButton1ActionPerformed

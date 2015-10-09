@@ -16,9 +16,12 @@ public class RepositorioFuncionario {
     
     public static void inicialFuncionario(){
         
-    Funcionario f1 = new Funcionario("...", "...", "...", "...", "...", "...", "...");
-    Funcionario f2 = new Funcionario("...", "...", "...", "...", "...", "...", "...");
-    Funcionario f3 = new Funcionario("...", "...", "...", "...", "...", "...", "...");
+    Funcionario f1 = new Funcionario("berg", "...", "...", "...", 
+            "...", "...", "...");
+    Funcionario f2 = new Funcionario("wyllam", "...", "...", "...", 
+            "...", "...", "...");
+    Funcionario f3 = new Funcionario("...", "...", "...", "...", 
+            "...", "...", "...");
     
     listaFuncionario.add(f1);
     listaFuncionario.add(f2);
